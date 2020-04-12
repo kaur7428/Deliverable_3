@@ -17,20 +17,11 @@ public class Hand extends CardCollection <UnoCard>{
 		super();
 	}
 	
-	/**
-	 * Add a card in the hand of the player.
-	 * @return if it was possible to add the card.
-	 */
 	@Override
 	public boolean addCard(UnoCard card){
 		return this.cardList.add(card);
 	}
 
-	/**
-	 * Remove a card in the hand of the player.
-	 * @param index of the desired card.
-	 * @return the UNO card removed.
-	 */
 	@Override
 	public UnoCard getCard(int index){
 		try{
@@ -40,11 +31,6 @@ public class Hand extends CardCollection <UnoCard>{
 		}
 	}
 	
-	/**
-	 * Show a card that is on the hand.
-	 * @param index of the desired card.
-	 * @return 
-	 */
 	public String showCard(int index){
 		try{
 			return this.cardList.get(index).toString();

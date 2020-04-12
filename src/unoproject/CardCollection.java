@@ -19,18 +19,10 @@ public abstract class CardCollection  <CardType> {
 	public abstract boolean addCard(CardType card);
 	public abstract CardType getCard(int index);
 	
-	/**
-	 * Count the number of cards in the collection.
-	 * @return the number of cards in the collection.
-	 */
 	public int getNumCards(){
 		return this.cardList.size();
 	}
 	
-	/**
-	 * Verify if the collection is empty.
-	 * @return true if it is empty, false otherwise.
-	 */
 	public boolean isEmpty(){
 		if(0 == this.cardList.size())
 			return true;

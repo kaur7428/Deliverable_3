@@ -15,10 +15,6 @@ public class DrawTwoCard extends SpecialCard{
 		super(color, SpecialCard.Value.DRAWTWO);
 	}
 	
-	/**
-	 * This card makes the next player takes two more cards.
-	 * It also loses its turn.
-	 */
 	@Override
 	public void applyEffect(EffectController ctrl){
 		ctrl.applyDrawTwo();

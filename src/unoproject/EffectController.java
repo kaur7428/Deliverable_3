@@ -42,9 +42,6 @@ public class EffectController {
 		this.pControl.rotateNextPlayer();
 	}
 	
-	/**
-	 * Revert the flow of the game.
-	 */
 	public void applyReverse(){
 		this.pControl.changeDirection();
 		
@@ -52,25 +49,15 @@ public class EffectController {
 			this.pControl.rotateNextPlayer();
 	}
 	
-	/**
-	 * Rotate the game in order to skip the next player.
-	 */
 	public void applySkip(){
 		System.out.println(pControl.getCurrent().getName());
 		this.pControl.rotateNextPlayer();
 	}
 	
-	/**
-	 * Get the new color of a wild card and rotate the game.
-	 * @return a string that contains the color.
-	 */
 	public String applyWild(){
 		return this.getWildColor();
 	}
 	
-	/**
-	 * The next player is forced to draw four cards.
-	 */
 	public void applyDrawFour(){
 		UnoCard card;
 		for(int i = 0; i < 4; i++){

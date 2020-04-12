@@ -15,7 +15,6 @@ public class SignUp {
     
     private Scanner input = new Scanner(System.in);
 	private PlayerManager pM = PlayerManager.getInstance();
-	//private IDGenerator idGen = IDGenerator.getInstance();
 	
 	public boolean sign(){
 		int number;
@@ -38,7 +37,6 @@ public class SignUp {
 		
 		for(int i = 0 ; i < number ; i++){
 			System.out.print("PLAYER " + String.valueOf(i+1) + ": ");
-			//pM.addPlayer(new Player(input.next(), idGen.getAnID()));
 		}
 		
 		return true;

@@ -88,7 +88,7 @@ public class PlayerManager {
 	}
 	
 	public void rotate(){	
-		//this.players.get(this.currElem).passTurn(this.players.get(this.nextElem));
+		
 		this.currElem = this.nextElem;
 		this.rotateNextPlayer();
 	}

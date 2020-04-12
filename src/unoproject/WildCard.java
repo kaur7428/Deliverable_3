@@ -11,9 +11,7 @@ import unoproject.UnoCard;
  * @author Urvis
  */
 public abstract class WildCard extends UnoCard{
-    /**
-     *
-    */
+ 
     public enum Value {        
         WILD            { public String toString() { return "WILD";}},
         WILDDRAWFOUR    { public String toString() { return "WILD+4";}}
@@ -42,7 +40,7 @@ public abstract class WildCard extends UnoCard{
     	return this.value.name();
     }
     
-    //@Override
+    @Override
     public void applyEffect(EffectController crtl){   	
     	this.setColor(crtl.applyWild());
     }

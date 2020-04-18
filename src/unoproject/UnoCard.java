@@ -6,7 +6,7 @@
 package unoproject;
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public abstract class UnoCard {
     

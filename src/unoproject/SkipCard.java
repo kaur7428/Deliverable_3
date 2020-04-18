@@ -7,11 +7,11 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public abstract class SkipCard extends SpecialCard{
 
-	public SkipCard(NCard.Color color){
+	public SkipCard(ActionCard.Color color){
 		super(color, SpecialCard.Value.SKIP);
 	}
 	

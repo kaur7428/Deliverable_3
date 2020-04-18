@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author Urvis
  */
-public class DiscardPile extends CardCollection <UnoCard>{
+public class DiscardPile extends GroupOfCards <UnoCard>{
 	
 	public DiscardPile(){
 		//super();

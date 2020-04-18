@@ -8,7 +8,7 @@ import java.io.InputStream;
 import java.util.Scanner;
 /**
  *
- * @author Urvis
+ * @author Japn
  */
 public class Input {
     

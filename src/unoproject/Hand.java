@@ -9,9 +9,9 @@ import unoproject.UnoCard;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
-public class Hand extends CardCollection <UnoCard>{
+public class Hand extends GroupOfCards <UnoCard>{
 	
 	public Hand(){
 		super();

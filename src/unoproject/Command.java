@@ -7,15 +7,15 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public class Command {
     
-    private Match match = Match.getInstance();
+    private Match match = unoproject.Match.getInstance();
 	
 	public boolean playCard(String[] fields){
 		if(fields[1].startsWith("WILD") && (fields.length < 3 
-				||!NCard.validColor(fields[2])))
+				||!ActionCard.validColor(fields[2])))
 			return false;
 		
 		if(this.match.playerPlayCard(fields[1])){		

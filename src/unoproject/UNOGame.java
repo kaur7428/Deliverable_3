@@ -7,9 +7,9 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
-public class UNOProject {
+public class UNOGame {
 
     /**
      * @param args the command line arguments
@@ -17,15 +17,13 @@ public class UNOProject {
     public static void main(String[] args) {
         // TODO code application logic here
         
-        Interpreter inter = new Interpreter();	
-		SignUp sign = new SignUp();
+        GameManager inter = new GameManager();	
+		StartGame sign = new StartGame();
 		Match game = Match.getInstance();
 
-		System.out.println("---------------------------------------"
-				+ "-----------------------------------------");
-		System.out.println("\t\t\t\tUNO CARD GAME");
-		System.out.println("---------------------------------------"
-				+ "-----------------------------------------");
+		
+		System.out.println("\t\tUNO CARD GAME...");
+                System.out.println("LET's BEGIN IT...");
 		game.init();					
 		while(sign.sign() == false);	
 		game.start();					

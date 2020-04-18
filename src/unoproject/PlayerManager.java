@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public class PlayerManager {
     
@@ -63,35 +63,9 @@ public class PlayerManager {
 		return this.players.size();
 	}
 	
-	public void lockAdd(){
-		this.canAdd = false;
-	}
 	
-	public void unlockAdd(){
-		this.canAdd = true;
-	}
 	
-	public String getDirection(){
-		if(this.toRight)
-			return "RIGHT";
-		else
-			return "LEFT";
-	}
 	
-	public void changeDirection(){
-		this.toRight ^= true;
-		
-		if(this.toRight)
-			this.nextElem = (this.currElem + 1) % players.size();
-		else
-			this.nextElem = (this.currElem - 1 + players.size()) % players.size();
-	}
-	
-	public void rotate(){	
-		
-		this.currElem = this.nextElem;
-		this.rotateNextPlayer();
-	}
 	
 	public void rotateNextPlayer(){
 		
@@ -126,6 +100,14 @@ public class PlayerManager {
 		
 		return null;
 	}
+
+    void rotate() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void changeDirection() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

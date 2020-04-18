@@ -8,7 +8,7 @@ import unoproject.UnoCard;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public abstract class WildCard extends UnoCard{
  
@@ -58,7 +58,7 @@ public abstract class WildCard extends UnoCard{
     public boolean setColor(String color){
     	if(this.used)
     		return false;
-    	if(!NCard.validColor(color))
+    	if(!ActionCard.validColor(color))
     		throw new IllegalArgumentException();
     	
     	this.effectiveColor = color;

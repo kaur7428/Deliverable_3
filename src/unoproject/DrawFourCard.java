@@ -4,13 +4,14 @@
  * and open the template in the editor.
  */
 package unoproject;
-import unoproject.WildCard;
+
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public class DrawFourCard extends WildCard{
 	private Value value;
+	private int attribute;
 	
 	public DrawFourCard(){
         super();
@@ -26,5 +27,13 @@ public class DrawFourCard extends WildCard{
 	public void applyEffect(EffectController ctrl){
     	ctrl.applyDrawFour();
     	super.setColor(ctrl.applyWild());
-    }    
+    }
+
+	public int getAttribute() {
+		return this.attribute;
+	}
+
+	public void setAttribute(int attribute) {
+		this.attribute = attribute;
+	}    
 }

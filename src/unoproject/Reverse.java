@@ -6,11 +6,11 @@
 package unoproject;
 /**
  *
- * @author Urvis
+ * @author Japne
  */
-public class RCard extends SpecialCard{
+public class Reverse extends SpecialCard{
 	
-	public RCard(NCard.Color color){
+	public Reverse(ActionCard.Color color){
 		super(color, SpecialCard.Value.REVERSE);
 	}
 	

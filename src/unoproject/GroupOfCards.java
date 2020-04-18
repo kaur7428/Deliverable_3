@@ -7,12 +7,12 @@ package unoproject;
 import java.util.ArrayList;
 /**
  *
- * @author Urvis
+ * @author Japne
  */
-public abstract class CardCollection  <CardType> {
+public abstract class GroupOfCards  <CardType> {
 	protected ArrayList <CardType> cardList;
 	
-	public CardCollection(){
+	public GroupOfCards(){
 		this.cardList = new ArrayList<CardType>();
 	}
 	

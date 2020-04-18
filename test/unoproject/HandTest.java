@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author veerj
+ * @author Japne
  */
 public class HandTest {
     
@@ -49,7 +49,7 @@ public class HandTest {
         boolean result = instance.addCard(card);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
      @Test
     public void testAddCardBad() {
@@ -60,7 +60,7 @@ public class HandTest {
         boolean result = instance.addCard(card);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
         
     }
      @Test
@@ -72,7 +72,7 @@ public class HandTest {
         boolean result = instance.addCard(card);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -87,7 +87,7 @@ public class HandTest {
         UnoCard result = instance.getCard(index);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
 
@@ -100,7 +100,7 @@ public class HandTest {
         UnoCard result = instance.getCard(index);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
     @Test
     public void testGetCardBad() {
@@ -111,7 +111,7 @@ public class HandTest {
         UnoCard result = instance.getCard(index);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     @Test
@@ -123,7 +123,7 @@ public class HandTest {
         String result = instance.showCard(index);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
     @Test
     public void testShowCardBad() {
@@ -134,7 +134,7 @@ public class HandTest {
         String result = instance.showCard(index);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
     @Test
     public void testShowCardBoundary() {
@@ -145,7 +145,7 @@ public class HandTest {
         String result = instance.showCard(index);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
     
 }

@@ -7,7 +7,7 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public class Player {
     

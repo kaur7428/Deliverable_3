@@ -7,9 +7,16 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author Japneet
  */
-public class NCard extends UnoCard{
+public class ActionCard extends UnoCard{
+
+    /**
+     *
+     * @param c
+     * @param v
+     */
+    
     
     public enum Color {
         BLUE   { public String toString() { return "BLUE"; }},
@@ -34,7 +41,7 @@ public class NCard extends UnoCard{
     private final Color color;
     private final Value value;
 
-    public NCard(final Color color, final Value value){
+    public ActionCard(final Color color, final Value value){
         this.color = color;
         this.value = value;
     }

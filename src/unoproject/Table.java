@@ -9,17 +9,17 @@ import java.util.ArrayList;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public class Table
 {
         private DiscardPile dPile;
-	private UnoDeck deck;
+	private Deck deck;
 	private static Table table = null;
 	
 	private Table(){
 		this.dPile = new DiscardPile(); 
-		this.deck = new UnoDeck(); 
+		this.deck = new Deck(); 
 	}
 	
 	public static Table getInstance(){

@@ -7,7 +7,7 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
 public abstract class SpecialCard extends UnoCard{
 
@@ -24,10 +24,10 @@ public abstract class SpecialCard extends UnoCard{
         DRAWTWO { public String toString() { return "+2";}}
     }
 
-    private final NCard.Color color;
+    private final ActionCard.Color color;
     private final Value value;
 
-    public SpecialCard(final NCard.Color color, final Value value){
+    public SpecialCard(final ActionCard.Color color, final Value value){
         this.color = color;
         this.value = value;
     }

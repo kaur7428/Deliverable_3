@@ -9,9 +9,9 @@ import java.util.Scanner;
 //import PlayerManager;
 /**
  *
- * @author Urvis
+ * @author Japne
  */
-public class SignUp {
+public class StartGame {
     
     private Scanner input = new Scanner(System.in);
 	private PlayerManager pM = PlayerManager.getInstance();

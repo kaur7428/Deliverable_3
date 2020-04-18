@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 /**
  *
- * @author veerj
+ * @author japne
  */
 public class WildCardTest {
     
@@ -48,7 +48,7 @@ public class WildCardTest {
         String result = instance.getColor();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
      
      @Test
@@ -59,7 +59,7 @@ public class WildCardTest {
         String result = instance.getColor();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -73,7 +73,7 @@ public class WildCardTest {
         String result = instance.getValue();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     /**
@@ -101,7 +101,7 @@ public class WildCardTest {
         boolean result = instance.setColor(color);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
     @Test
     public void testSetColorBoundary() {
@@ -112,7 +112,7 @@ public class WildCardTest {
         boolean result = instance.setColor(color);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -126,7 +126,7 @@ public class WildCardTest {
         String result = instance.toString();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 @Test
     public void testToStringBad() {
@@ -136,7 +136,7 @@ public class WildCardTest {
         String result = instance.toString();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     @Test
@@ -147,7 +147,7 @@ public class WildCardTest {
         String result = instance.toString();
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        
     }
 
     public class WildCardImpl extends WildCard {

@@ -7,9 +7,9 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
-public class Interpreter 
+public class GameManager
 {
     
     private int State = 0;

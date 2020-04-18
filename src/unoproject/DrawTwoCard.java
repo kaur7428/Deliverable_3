@@ -8,10 +8,10 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author japne
  */
 public class DrawTwoCard extends SpecialCard{
-	public DrawTwoCard(NCard.Color color){
+	public DrawTwoCard(ActionCard.Color color){
 		super(color, SpecialCard.Value.DRAWTWO);
 	}
 	

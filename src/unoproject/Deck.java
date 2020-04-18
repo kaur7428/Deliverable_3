@@ -9,34 +9,33 @@ import java.util.Random;
 
 /**
  *
- * @author Urvis
+ * @author Japne
  */
-public class UnoDeck extends CardCollection <UnoCard>{
+public class Deck extends GroupOfCards <UnoCard>{
 	private final static Random sourceRandom = new Random();
 	public final static int LENGTH = 108;
 	
-	public UnoDeck(){
-        for(NCard.Color c:NCard.Color.values()){
+	public Deck(){
+        for(ActionCard.Color c:ActionCard.Color.values()){
             for(int j = 0; j < 2 ; j++) {
-                for(NCard.Value v:NCard.Value.values()){
-                    if(j == 1 && v.equals(NCard.Value.ZERO) )
+                for(ActionCard.Value v:ActionCard.Value.values()){
+                    if(j == 1 && v.equals(ActionCard.Value.ZERO) )
                         continue;
                     else 
-                        cardList.add(new NCard(c,v));
+                        cardList.add(new ActionCard(c,v));
                 }
             }
         }
 
-        for(NCard.Color c:NCard.Color.values()){
+        for(ActionCard.Color c:ActionCard.Color.values()){
             for(int j = 0; j < 2 ; j++) {
                 cardList.add(new SkipCard(c) {});
-                cardList.add(new RCard(c));
+                cardList.add(new Reverse(c));
                 cardList.add(new DrawTwoCard(c));
                 
             }
         }
 
-        
         for(int j = 0; j < 4; j++) {
              cardList.add(new WildCard() {});
              cardList.add(new DrawFourCard());

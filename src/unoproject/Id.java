@@ -4,14 +4,13 @@
  * and open the template in the editor.
  */
 package unoproject;
-import java.util.InputMismatchException;
-import java.util.Scanner;
 
 /**
  *
- * @author Urvis
+ * @author japne
  */
-public class Id <Type>{
+class Id<Type> {
+   
 	private Type id;
 	
 	public Id(Type Id){
@@ -21,5 +20,4 @@ public class Id <Type>{
 	public Type getID(){
 		return this.id; 
 	}
-    
 }

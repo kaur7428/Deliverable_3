@@ -7,7 +7,7 @@ package unoproject;
 
 /**
  *
- * @author Urvis
+ * @author japne
  */
 public class EffectController {
  
@@ -22,7 +22,7 @@ public class EffectController {
 	}
 	
 	public boolean setWildColor(String color){
-		if(NCard.validColor(color)){
+		if(ActionCard.validColor(color)){
 			this.wildColor = color;
 			return true;
 		}
